@@ -1,0 +1,27 @@
+html{
+	height: 100%;
+	border:solid 1px blue;
+}
+
+body{
+	height: 100%;
+	background-color: #ccc;
+	border: solid 1px green;
+}
+
+#container{
+	border: 1px red;
+	width: 90%
+	margin:0 auto;
+}
+
+#banner{
+	height: 150px;
+	position: fixed;
+}
+
+#nav{
+	height:50px;
+	border: solid 2px #555;
+	background-color: #aaa;
+}
