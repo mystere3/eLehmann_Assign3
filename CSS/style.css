@@ -1,16 +1,16 @@
 html{
 	/*height: 100%;*/
-	border:solid 1px blue;
+	border:solid 0px blue;
 }
 
 body{
 	/*height: 100%;*/
 	background-color: #ccc;
-	border: solid 1px green;
+	border: solid 0px green;
 }
 
 #container{
-	border: solid 5px red;
+	border: solid 0px red;
 	margin-right: 5px;
 }
 #socialBar{
@@ -18,12 +18,12 @@ body{
 	width: 25%;
 	background-color: #ADB9D3;
 	position: fixed;
-	border: solid 1px black;
+	border: solid 0px black;
 	float: left;
 }
 .socialElement{
 	height: 50%;
-	border: solid 1px orange;
+	border: solid 0px orange;
 	text-align: center;
 	line-height: 300px;
 }
@@ -31,7 +31,7 @@ body{
 #main{
 	height: 100%;
 	width: 75%;
-	border: solid 1px purple;
+	border: solid 0px purple;
 	float: right;
 }
 #banner{
@@ -54,7 +54,7 @@ body{
 	float: left;
 	width: 100%;
 	height: 100%;
-	border: solid 1px red;
+	border: solid 0px red;
 }
 
 #column1{
@@ -63,11 +63,39 @@ body{
 	float: left;
 	padding-left: 5px;
 }
+
+.pictureBox{
+	width: 220px;
+	height: 300px;
+	float: left;
+	border: solid 0px green;
+}
+.galleryImage{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.galleryTitle{
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 20pt;
+	line-height: 17pt;
+
+}
+.price{
+	vertical-align: text-bottom;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 15pt;
+	line-height: 0pt;
+}
 #footer{
 	height: 25px;
 	background-color: #aaa;
 	text-align: center;
 	line-height: 25px;
+	border: solid 2px #555;
 	clear: both;
 }
 
