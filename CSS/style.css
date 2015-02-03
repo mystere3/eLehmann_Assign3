@@ -57,7 +57,7 @@ body{
 	border: solid 0px red;
 }
 
-#column1{
+.column1{
 	width: 32%;
 	border: solid 0px orange;
 	float: left;
